@@ -21,7 +21,7 @@ CREATE TABLE github_users(
 
 CREATE TABLE posts(
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    description VARCHAR NOT NULL
+  description VARCHAR(255) NOT NULL
 
 );
 
