@@ -1,11 +1,17 @@
-# Template for Backend Express
+## This app demoonstrates how to:
+- Use OAuth to create & log in users
+- Use Express middleware to ensure requests are authenticated
+- Use cookies to store user data
+- Use JWTs for storing user data in cookies
+- Sign & verify JWTs to ensure validitity
+- Utilize GitHub OAuth for authentication
 
-The Golden Rule:
-🦸 🦸‍♂️ Stop starting and start finishing. 🏁
+## This app uses:
+- Node
+- Express
+- PostgreSQL
 
-If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.
-
-## Scripts
+### Scripts
 
 | command                | description                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------- |
@@ -16,7 +22,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 | `npm run setup-db`     | sets up the database locally                                                        |
 | `npm run setup-heroku` | sets up the database on heroku                                                      |
 
-## User Routes
+### User Routes
 
 | Route                    | HTTP Method | HTTP Body                                                                              | Description                                        |
 | ------------------------ | ----------- | -------------------------------------------------------------------------------------- | -------------------------------------------------- |
